@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>weather-app</title>
+</head>
+<body>
+    <div id='widget-container'>
+        <div id='current-weather'>
+            <div id='weather-text'>
+                <div style='text-align: start;'>
+                    <h2 id='location'></h2>
+                    <p id='description'></p>
+                    <p id='time'></p>
+                </div>
+                <div style='text-align: end;'>
+                    <h2 id='temp'></h2>
+                    <p id='humidity'></p>
+                </div>
+            </div>
+            <img src='http://openweathermap.org/img/wn/10d@2x.png' id='current-image'>
+            <form action="">
+                <input type="text" id='city-input'>
+                <button>search</button>
+            </form>
+        </div>
+        <div id='hourly-weather-container'>
+            <div class="hourly-weather">
+                <img src="" alt="" class="hourly-image" id='0-image'>
+                <div class="hourly-div">
+                    <p class="hourly-time" id='0-time'>0:00</p>
+                    <p class="hourly-temp" id='0-temp'></p>
+                </div>
+            </div>
+            <div class="hourly-weather">
+                <img src="" alt="" class="hourly-image" id='6-image'>
+                <div class="hourly-div">
+                    <p class="hourly-time" id='6-time'>6:00</p>
+                    <p class="hourly-temp" id='6-temp'></p>
+                </div>
+            </div>
+            <div class="hourly-weather">
+                <img src="" alt="" class="hourly-image" id='12-image'>
+                <div class="hourly-div">
+                    <p class="hourly-time" id='12-time'>12:00</p>
+                    <p class="hourly-temp" id='12-temp'></p>
+                </div>
+            </div>
+            <div class="hourly-weather">
+                <img src="" alt="" class="hourly-image" id='18-image'>
+                <div class="hourly-div">
+                    <p class="hourly-time" id='18-time'>18:00</p>
+                    <p class="hourly-temp" id='18-temp'></p>
+                </div>
+            </div>
+            <div class="hourly-weather">
+                <img src="" alt="" class="hourly-image" id='24-image'>
+                <div class="hourly-div">
+                    <p class="hourly-time" id='24-time'>24:00</p>
+                    <p class="hourly-temp" id='24-temp'></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+</html>
